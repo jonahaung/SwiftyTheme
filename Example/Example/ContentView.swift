@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SwiiftyTheme
+import SwiftyTheme
 
 struct ContentView: View {
     var body: some View {

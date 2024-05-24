@@ -11,7 +11,7 @@
 		4709BA932C00F4D600F6E7AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709BA922C00F4D600F6E7AA /* ContentView.swift */; };
 		4709BA952C00F4D700F6E7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4709BA942C00F4D700F6E7AA /* Assets.xcassets */; };
 		4709BA982C00F4D700F6E7AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4709BA972C00F4D700F6E7AA /* Preview Assets.xcassets */; };
-		4709BAA12C00F9C300F6E7AA /* SwiiftyTheme in Frameworks */ = {isa = PBXBuildFile; productRef = 4709BAA02C00F9C300F6E7AA /* SwiiftyTheme */; };
+		4709BAA72C01001700F6E7AA /* SwiftyTheme in Frameworks */ = {isa = PBXBuildFile; productRef = 4709BAA62C01001700F6E7AA /* SwiftyTheme */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4709BAA12C00F9C300F6E7AA /* SwiiftyTheme in Frameworks */,
+				4709BAA72C01001700F6E7AA /* SwiftyTheme in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				4709BAA02C00F9C300F6E7AA /* SwiiftyTheme */,
+				4709BAA62C01001700F6E7AA /* SwiftyTheme */,
 			);
 			productName = Example;
 			productReference = 4709BA8D2C00F4D600F6E7AA /* Example.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 4709BA842C00F4D600F6E7AA;
 			packageReferences = (
-				4709BA9F2C00F9C300F6E7AA /* XCLocalSwiftPackageReference "../SwiftyTheme" */,
+				4709BAA52C01001700F6E7AA /* XCLocalSwiftPackageReference "../SwiftyTheme" */,
 			);
 			productRefGroup = 4709BA8E2C00F4D600F6E7AA /* Products */;
 			projectDirPath = "";
@@ -354,16 +354,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		4709BA9F2C00F9C300F6E7AA /* XCLocalSwiftPackageReference "../SwiftyTheme" */ = {
+		4709BAA52C01001700F6E7AA /* XCLocalSwiftPackageReference "../SwiftyTheme" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../SwiftyTheme;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4709BAA02C00F9C300F6E7AA /* SwiiftyTheme */ = {
+		4709BAA62C01001700F6E7AA /* SwiftyTheme */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = SwiiftyTheme;
+			productName = SwiftyTheme;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

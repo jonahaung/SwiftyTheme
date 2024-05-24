@@ -14,9 +14,6 @@ import WatchKit
 import AppKit
 #endif
 
-
-
-
 private extension Color {
 #if os(macOS)
     typealias SystemColor = NSColor
