@@ -1,7 +1,7 @@
 import XCTest
-@testable import SwiiftyTheme
+@testable import SwiftyTheme
 
-final class SwiiftyThemeTests: XCTestCase {
+final class SwiftyThemeTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
